@@ -21,3 +21,11 @@ sin necesidad de acceder a los módulos individuales.
 
 # Definimos la lista '__all__' para especificar qué nombres serán exportados cuando se use 'from analisis_datos import *'.
 
+
+from .carga_datos import generar_lista_compras
+from .estadisticas import media, mediana
+
+
+_all_ = ['media', 'mediana', 'generar_list_compra']
+
+calculos = ['media', 'mediana']
